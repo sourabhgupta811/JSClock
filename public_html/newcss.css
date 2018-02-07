@@ -1,0 +1,56 @@
+/*  
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2018, 12:51:56 PM
+    Author     : mark aircon
+*/
+body{
+    background-color: #496bab;
+    display:flex;
+    flex:1;
+    min-height: 100vh;
+    align-items: center; 
+}
+.clock{
+    background-color: #496bab;
+    background-image: url(vegeta_1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    border-color:white;
+    margin:80px auto;
+    padding:1em;
+    
+    position:relative;
+    border-width: 1em;
+    border-style: solid;
+    height: 25em;
+    width:25em;
+}
+.hand{
+    width:50%;
+        transition:all 1s;
+        
+    height:6px;
+    background-color:grey;
+    position:absolute;
+    transform: rotate(90deg);
+    top:50%;
+    transform-origin: 93%;
+    transition-timing-function: cubic-bezier(0.28, 1.4, 0.58, 1);
+}
+.hour{
+    height:8px;
+    /*width:40%;*/
+    top:49.8%;
+}
+.minute{
+    height:7px;
+    /*width:45%;*/
+    top:49.8%;
+}
+.second{}
+
+
